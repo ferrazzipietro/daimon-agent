@@ -6,16 +6,12 @@ ROOT_DIR = Path(__file__).resolve().parents[2]
 if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
-from flow import create_flow
+from runner import run_agent_task
 from utils import (
     DocumentExtractionError,
     MEMORY_PATH,
-    init_run_artifacts,
     load_env_file,
     load_or_build_memory,
-    log_step,
-    write_answer_files,
-    write_trace_files,
 )
 
 
@@ -83,51 +79,23 @@ def main():
         print(f"\nChunks indexed: {len(memory.get('chunks', []))}")
         return
 
-    artifacts = init_run_artifacts(args.task, logs_dir=args.logs_dir)
-    shared = {
-        "task": args.task,
-        "memory": memory,
-        "skills_dir": str(Path(__file__).resolve().parent / "skills"),
-        "attempt": 1,
-        "max_attempts": max(1, args.max_attempts),
-        "artifacts": artifacts,
-        "trace": [],
-    }
-    log_step(
-        shared,
-        "RunStarted",
-        {
-            "task": args.task,
-            "memory_path": str(MEMORY_PATH),
-            "memory_sources": memory.get("sources", []),
-            "max_attempts": shared["max_attempts"],
-            "artifacts": artifacts,
-        },
-    )
-
     print(f"📝 Task: {args.task}")
     print(f"🗂️ Memory: {MEMORY_PATH}")
-    print(f"🧾 Logs: {artifacts['run_dir']}")
-    create_flow().run(shared)
-
-    log_step(
-        shared,
-        "RunCompleted",
-        {
-            "review_status": shared.get("review_status"),
-            "final_attempt": shared.get("attempt"),
-            "answer_chars": len(shared.get("result", shared.get("draft_answer", ""))),
-        },
+    result = run_agent_task(
+        args.task,
+        max_attempts=args.max_attempts,
+        logs_dir=args.logs_dir,
+        rebuild_memory=False,
     )
-    write_answer_files(shared)
-    write_trace_files(shared)
+    artifacts = result["artifacts"]
+    print(f"🧾 Logs: {artifacts['run_dir']}")
 
     print("\n=== Answer ===")
-    print(shared.get("result", shared.get("draft_answer", "(no answer generated)")))
+    print(result.get("answer", "(no answer generated)"))
 
-    if shared.get("judge_feedback"):
+    if result.get("reviewer_note"):
         print("\n=== Reviewer Note ===")
-        print(shared["judge_feedback"])
+        print(result["reviewer_note"])
 
     print("\n=== Saved Artifacts ===")
     print(f"Trace JSON: {artifacts['trace_json']}")

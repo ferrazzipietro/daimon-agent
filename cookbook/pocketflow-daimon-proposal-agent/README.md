@@ -11,6 +11,14 @@ python cookbook/pocketflow-daimon-proposal-agent/main.py "which partner should w
 python cookbook/pocketflow-daimon-proposal-agent/main.py "check whether WP3 aligns with the call"
 ```
 
+Run the minimal web UI with:
+
+```bash
+python cookbook/pocketflow-daimon-proposal-agent/web_app.py
+```
+
+Then open `http://127.0.0.1:8765`. The left panel shows the current result document; the right panel is the chat. Each message still creates the same backend log folder and PDF artifacts as the CLI.
+
 ## Design
 
 ```mermaid
