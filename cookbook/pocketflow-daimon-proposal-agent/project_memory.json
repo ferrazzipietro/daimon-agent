@@ -1,0 +1,3051 @@
+{
+  "project": {
+    "name": "DAIMON Horizon proposal",
+    "call_id": "HORIZON-CL2-2026-01-TRANSFO-04",
+    "call_title": "The impact of the use of digital tools outside school and for communication on educational outcomes and mental health",
+    "action_type": "RIA",
+    "proposal_form": "Horizon Europe lump sum, Part B page limit noted in call text as 50 pages"
+  },
+  "freshness_rules": [
+    "Use last_news.txt as the highest-priority source for current consortium and WP decisions.",
+    "Use the Horizon call document as authoritative for topic requirements, expected outcomes, scope, and admissibility notes.",
+    "Treat WP structure and presentation PDFs as useful project drafts that may contain outdated information.",
+    "When sources conflict, explicitly name the conflict and follow the highest-priority source."
+  ],
+  "call_requirements": {
+    "expected_outcomes": [
+      "Solid understanding of how social media, video gaming, and other leisure uses of digital tools relate to young people's educational outcomes, well-being, and mental health.",
+      "Rigorous, policy-relevant evidence about policies and practices that inform or regulate non-educational digital tool use, including smartphones at school.",
+      "Actionable advice for policymakers and citizens about promoting healthy leisure use of digital tools at school and outside school.",
+      "Quantified relationships between leisure/communication digital tool use and motivation, study habits, attention, concentration, time management, engagement, social integration, and well-being."
+    ],
+    "scope_requirements": [
+      "Address complex, context-dependent effects across device, activity, duration, and setting.",
+      "Consider variations by age group, socio-economic background, cultural context, type of digital engagement, and disability.",
+      "Apply rigorous experimental and/or quasi-experimental methods, optionally complemented by experience sampling, surveys, and qualitative methods.",
+      "Cooperate closely with educational authorities, institutions, and educators.",
+      "Include opinions of young people and stakeholders such as media literacy organisations.",
+      "Use interdisciplinary SSH approaches where relevant.",
+      "Plan clustering and cooperation with other selected or relevant projects.",
+      "Consider FAIR data and relevant European research infrastructures where applicable."
+    ]
+  },
+  "current_updates": [
+    "New partner Mireia Vendrell in Barcelona for data collection in Spain.",
+    "New partner Desirée Schmuck in Vienna on AI-related changes in technology users.",
+    "The consortium is closed.",
+    "The separate guidelines WP has been removed; guidelines should become deliverables inside each WP."
+  ],
+  "partners": {
+    "Mireia Vendrell Morancho": {
+      "name": "Mireia Vendrell Morancho",
+      "location": "Barcelona, Spain",
+      "current_project_role": "Data collection in Spain",
+      "roles": [
+        "Data collection in Spain"
+      ],
+      "sources": [
+        "last_news.txt",
+        "partners table.pdf"
+      ],
+      "unit": "Psychology",
+      "organization": "Artificial Intelligence Research Institute - Spanish National Research Council",
+      "workpackages": [
+        "WP4"
+      ],
+      "web_search": {
+        "web_search_status": "unverified",
+        "web_summary": "Web search did not return a reliable exact-match official profile in the current search session. Use partner table and last_news facts: Artificial Intelligence Research Institute, Spanish National Research Council, Barcelona, WP4 and Spain data collection.",
+        "source_urls": [],
+        "search_queries": [
+          "\"Mireia Vendrell Morancho\"",
+          "\"Mireia Vendrell\" \"Spanish National Research Council\""
+        ]
+      }
+    },
+    "Desirée Schmuck": {
+      "name": "Desirée Schmuck",
+      "location": "Vienna, Austria",
+      "current_project_role": "Changes caused by AI in technology users",
+      "roles": [
+        "AI-related changes in technology users"
+      ],
+      "sources": [
+        "last_news.txt",
+        "partners table.pdf"
+      ],
+      "unit": "Media Change and Innovation",
+      "organization": "Department of Communication, University of Vienna",
+      "web_search": {
+        "web_search_status": "unverified",
+        "web_summary": "Web search did not return a reliable exact-match official profile in the current search session. Use the partner table and last_news facts: Department of Communication, University of Vienna, AI-related changes in technology users.",
+        "source_urls": [],
+        "search_queries": [
+          "Desiree Schmuck University Vienna communication",
+          "\"Desirée Schmuck\" \"University of Vienna\""
+        ]
+      }
+    },
+    "Fabio Grigenti": {
+      "name": "Fabio Grigenti",
+      "unit": "Conceptual-Ethical Analysis",
+      "organization": "FISPPA Department, Universita degli Studi di Padova",
+      "location": "Padova, Italy",
+      "roles": [
+        "Consortium Coordinator"
+      ],
+      "workpackages": [
+        "WP1",
+        "WP7",
+        "WP8"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "unverified",
+        "web_summary": "Web search did not return a reliable official profile in the current search session. Use the partner table facts: FISPPA, Universita degli Studi di Padova, consortium coordinator, WP1/WP7/WP8.",
+        "source_urls": [],
+        "search_queries": [
+          "Fabio Grigenti FISPPA Universita degli Studi di Padova",
+          "\"Fabio Grigenti\""
+        ]
+      }
+    },
+    "Bernardo Magnini": {
+      "name": "Bernardo Magnini",
+      "unit": "Technical Model Design",
+      "organization": "Natural Language Processing unit, FBK - Fondazione Bruno Kessler",
+      "location": "Trento, Italy",
+      "workpackages": [
+        "WP3"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "partially_verified",
+        "web_summary": "Search results and publication records consistently associate Bernardo Magnini with NLP and Italian language/NLU research. Partner table gives the project affiliation as FBK, Natural Language Processing unit, Trento, with WP3 responsibility.",
+        "source_urls": [
+          "https://arxiv.org/abs/2011.00564",
+          "https://arxiv.org/abs/2502.02289"
+        ],
+        "search_queries": [
+          "\"Bernardo Magnini\" \"Fondazione Bruno Kessler\"",
+          "\"Bernardo Magnini\" \"NLP\" \"FBK\""
+        ]
+      }
+    },
+    "Antonella Marchetti": {
+      "name": "Antonella Marchetti",
+      "unit": "Psychology",
+      "organization": "Psychology Department, Universita Cattolica",
+      "location": "Milano, Italy",
+      "workpackages": [
+        "WP4"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "partially_verified",
+        "web_summary": "Search results identify Antonella Marchetti in psychology/cognitive-science work, including recent AI/cognition-related scholarship. Partner table gives the project affiliation as Universita Cattolica, Psychology Department, Milan, WP4.",
+        "source_urls": [
+          "https://arxiv.org/abs/2407.16444"
+        ],
+        "search_queries": [
+          "\"Antonella Marchetti\" \"Università Cattolica\" psychology",
+          "\"Antonella Marchetti\" AI cognition"
+        ]
+      }
+    },
+    "Davide Massaro": {
+      "name": "Davide Massaro",
+      "unit": "Psychology",
+      "organization": "Psychology Department, Universita Cattolica",
+      "location": "Milano, Italy",
+      "workpackages": [
+        "WP4"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "unverified",
+        "web_summary": "Web search was noisy because the name collides with unrelated public figures. Use only the partner table fact that Davide Massaro is part of the Universita Cattolica Psychology Department team for WP4 unless manually verified.",
+        "source_urls": [],
+        "search_queries": [
+          "\"Davide Massaro\" \"Università Cattolica\" psychology",
+          "\"Antonella Marchetti\" \"Davide Massaro\""
+        ]
+      }
+    },
+    "Ioana R. Podina": {
+      "name": "Ioana R. Podina",
+      "unit": "Psychology",
+      "organization": "Mind Care 4ALL",
+      "location": "Bucharest, Romania",
+      "workpackages": [
+        "WP5"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "partially_verified",
+        "web_summary": "Search results associate Ioana R. Podina with clinical psychology and computational/mental-health research. Partner table gives Mind Care 4ALL, Bucharest, WP5.",
+        "source_urls": [
+          "https://arxiv.org/abs/2108.00279"
+        ],
+        "search_queries": [
+          "\"Ioana R. Podina\" \"Mind Care 4ALL\"",
+          "\"Ioana Podina\" clinical psychology"
+        ]
+      }
+    },
+    "Marco Tamborini": {
+      "name": "Marco Tamborini",
+      "unit": "Philosophy of Technology",
+      "organization": "Dipartimento di Filosofia, Pegaso University",
+      "location": "Italy",
+      "workpackages": [
+        "WP2"
+      ],
+      "sources": [
+        "partners table.pdf"
+      ],
+      "web_search": {
+        "web_search_status": "unverified",
+        "web_summary": "Web search did not return a reliable official profile in the current search session. Use partner table facts: philosophy of technology, Pegaso University, WP2.",
+        "source_urls": [],
+        "search_queries": [
+          "\"Marco Tamborini\" philosophy of technology",
+          "\"Marco Tamborini\" Pegaso University"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "last_news.txt",
+      "path": "/home/pferrazzi/daimon-agent/data_daimon/last_news.txt",
+      "priority": "highest",
+      "kind": "fresh_updates",
+      "extraction_method": "plain_text_paragraphs",
+      "chars": 394,
+      "chunks": 2
+    },
+    {
+      "name": "call progetto europeo frictionless.docx",
+      "path": "/home/pferrazzi/daimon-agent/data_daimon/call progetto europeo frictionless.docx",
+      "priority": "authoritative_for_call",
+      "kind": "horizon_call",
+      "extraction_method": "docling_HierarchicalChunker",
+      "chars": 19808,
+      "chunks": 83,
+      "chunker_import_errors": []
+    },
+    {
+      "name": "HORIZON - Work Packages Structure.docx.pdf",
+      "path": "/home/pferrazzi/daimon-agent/data_daimon/HORIZON - Work Packages Structure.docx.pdf",
+      "priority": "project_draft_may_be_outdated",
+      "kind": "project_document",
+      "extraction_method": "docling_HierarchicalChunker",
+      "chars": 11029,
+      "chunks": 41,
+      "chunker_import_errors": []
+    },
+    {
+      "name": "Horizon PresentationDraft.docx (1).pdf",
+      "path": "/home/pferrazzi/daimon-agent/data_daimon/Horizon PresentationDraft.docx (1).pdf",
+      "priority": "project_draft_may_be_outdated",
+      "kind": "project_document",
+      "extraction_method": "docling_HierarchicalChunker",
+      "chars": 19568,
+      "chunks": 57,
+      "chunker_import_errors": []
+    },
+    {
+      "name": "partners table.pdf",
+      "path": "/home/pferrazzi/daimon-agent/data_daimon/partners table.pdf",
+      "priority": "project_draft_may_be_outdated",
+      "kind": "project_document",
+      "extraction_method": "docling_HierarchicalChunker",
+      "chars": 2512,
+      "chunks": 12,
+      "chunker_import_errors": []
+    }
+  ],
+  "chunks": [
+    {
+      "id": "last_news.txt#1",
+      "source": "last_news.txt",
+      "source_kind": "fresh_updates",
+      "priority": "highest",
+      "text": "Novità:\n- nuovo partner Mireia Vendrell (Barcelona).",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "plain_text_paragraphs"
+    },
+    {
+      "id": "last_news.txt#2",
+      "source": "last_news.txt",
+      "source_kind": "fresh_updates",
+      "priority": "highest",
+      "text": "Raccolta dati in Spagna\n- Nuovo partner Desirée Schmuck (Vienna): cambiamenti causati dall'AI negli utilizzatori delle tecnologie\n- abbiamo chiuso il consorzio\n- abbiamo tolto il WP di scrittura linee guida, che diventano deliverable di ogni WP (consiglio di ufficio unipd dato che non avevamo partner solidi a riguardo, mostrando debolezza)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "plain_text_paragraphs"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#1",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The impact of the use of digital tools outside school and for communication on educational outcomes and mental health",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#2",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "CALL HORIZON-CL2-2026-01-TRANSFO-04",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#3",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Topic description",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#4",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Expected Outcome:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#5",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Projects should contribute to all of the following expected outcomes:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#6",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "- Provide policymakers, education practitioners and citizens with a solid understanding of how social media, video gaming and other leisure uses of digital tools relate to the educational outcomes of young people, including through their impact on well-being and mental health.\n- Generate rigorous, policy-relevant evidence about policies and practices aiming to inform and regulate young people’s use of digital tools for non-educational purposes, such as smartphones, at school.\n- Develop actionable advice for policymakers and citizens about how to promote young people’s healthy use of digital tools for leisure, both at school and outside school.\n- Describe and quantify the relationships of using digital tools for leisure and communication with students’ motivation, study habits, attention span and concentration, time management, engagement, social integration and overall well-being.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#7",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Scope:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#8",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The increasing prevalence of digital devices in young people’s life has raised concerns about the potential impacts of the use of digital tools for leisure and communication on primary-, secondary- and higher education students’ well-being and educational outcomes [1] . “Digital distraction” is emerging inter alia as a potential threat to academic performance and several countries have started to regulate the use of smartphones at school.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#9",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "There is still limited evidence on the interrelation between the use of digital tools for leisure in-school or out-of-school and educational performance, in both primary and secondary education, because most of the existing literature is purely correlational, or only focuses on effects on well-being. Moreover, most existing research is from extra-EU contexts, which may limit the transferability of findings to EU education and training systems.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#10",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Several interrelated research questions remain to be addressed, such as:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#11",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "- Which types of digital device use do pupils perform during school and do their digital activities differ depending on different contexts (i.e., during class, during breaks or between classes)?\n- How do different activities (e.g. playing games vs. chatting with a parent), on different devices, with different time durations of use, relate to students’ attention span and concentration as well as general school motivation?\n- How does frequent smartphone, social media use and other online leisure activities (such as video games) impact students’ attention span, concentration, memory and relational capacities?\n- How can schools, educators and parents balance the use of those tools to enhance, rather than hinder, educational performance and students’ well-being?\n- What is the potential for addiction when using digital tools and what are the decisive factors for this on the part of the design of tools on the one hand and on the part of the users on the other?\n- How can digital leisure activities contribute to skills development, such as problem-solving and digital literacy and what is the transferability of these skills into education? How do these benefits compare with potential harm?\n- What is the role of parents and educators in guiding digital leisure activities? Explore parental digital literacy and its impact on the use of digital devices by the youth.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#12",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Proposals should explore the complex, context-dependent ways in which different forms of digital leisure affect attention, motivation, creativity, learning habits, critical thinking, and socio-emotional skills. They should consider variations across age groups, socio-economic backgrounds, cultural contexts, and types of digital engagement and include students with disabilities.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#13",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Proposals should apply rigorous experimental and/or quasi-experimental methods for their analysis and could complement them with experience sampling research, survey research methods and qualitative research methods. Close cooperation with educational authorities, educational institutions and educators in analysing existing policies and practices is essential. Proposals should also include the opinions of young people and other relevant stakeholders, such as media literacy organisations, for example, in the form surveys, interviews, consultations, as part of the data collection. Proposals could apply interdisciplinary approaches (including from SSH disciplines), combining insights from economics, sociology, neurosciences, communication science (media psychology) and pedagogy. Clustering and cooperation with other selected projects under this call and other relevant projects are strongly encouraged.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#14",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[1] Cf. European Commission initiative on ‘A comprehensive approach to mental health’ or the call for evidence for an EU Action Plan Against Cyberbullying’.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#15",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Topic destination",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#16",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Innovative Research on Social and Economic Transformations (2026-27)**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#17",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Projects funded under this destination should contribute to the following expected impacts in the Horizon Europe Strategic Plan 2025-2027 [1] :",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#18",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "- Strengthening social and economic resilience and sustainability\n- Boosting inclusive growth and reducing vulnerabilities effectively",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#19",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The expected impacts reflect the two-pronged nature of the destination. On the one hand, research funded by this destination will improve the understanding of how the macro drivers of change (technological change, climate change, new global trade patterns, along with migration, human mobility, and other demographic changes) impact society and inform policy makers on how to mitigate negative consequences and harness newly created opportunities. The results obtained should improve the understanding of the interplay between different drivers of change and their social, ethical, political, and economic implications. The improved understanding of these challenges and their economic, social, and distributional impacts will fill in the research gaps while also inform the design and assessment of policies addressing existing and emerging challenges, including in the areas of education, well-being and mental health.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#20",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "On the other hand, research and innovation investment should be geared towards deepening the understanding of how ongoing changes impact society, with a specific emphasis on the key objectives of boosting inclusive and sustainable growth and effectively reducing vulnerabilities, poverty and inequalities. This knowledge should provide valuable insights to policymakers to design and assess policies that effectively address vulnerabilities while capitalizing on emerging opportunities.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#21",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Overall, the destination’s activities will help promote the EU’s inclusive growth, resilience, and fair transition towards climate neutrality, by providing solid analytical evidence to implementing actions related to:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#22",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "- The European Pillar of Social Rights, and its Action Plan with its three ambitious targets (78% employment rate, 60% of population with yearly training, and reduction of the number of people at risk of poverty and social exclusion by at least 15 million by 2030)\n- the European Education Area and its EU-level 2030 targets\n- The Union of Skills (including envisaged initiatives on skills portability and the European Strategy for Vocational Education and Training, the Pact for Skills and the Skills Agenda)\n- the first-ever EU Anti-Poverty Strategy and the European Affordable Housing Plan\n- The Union of Equality policies and strategies, including:\n - the Strategy for the Rights of Persons with Disabilities 2021-2030 [2] (in line with the United Nations Convention on the Rights of Persons with Disabilities [3] ); the European Accessibility Act (Directive 2019/882), and the European Disability Card\n - The Gender Equality Strategy 2020 – 2025 and the Directive combating violence against women and domestic violence\n - EU Anti-racism Action Plan 2020-2025\n - The Strategic EU Framework for Roma Equality, Inclusion and Participation 2020-2030\n - The LGBTIQ Equality Strategy 2020-2025\n- The Communication on Demographic change in Europe: a toolbox for action\n- The EU’s just transition policy framework, in line with the 2040 Climate Target Plan, including the Just Transition Mechanism, the Social Climate Fund, and the Council Recommendation on ensuring a fair transition towards climate neutrality\n- The new Pact for European Social Dialogue and the Council Recommendation on strengthening social dialogue in the EU.\n- The European Child Guarantee\n- The Council Recommendation on adequate minimum income\n- The Commission Communication on a comprehensive approach to mental health\n- The new Pact on Asylum and Migration and its accompanying actions, initiatives and legislation.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#23",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "A new European Partnership on Social Transformations and Resilience [4] , focused on the social sciences and humanities (SSH), will be launched to make use of their potential to foster resilience, fairness and inclusiveness, and social cohesion in the light of changes in climate and environment, technology, demography, and unexpected shocks. The Partnership will fund research and innovation activities in the areas of the future of work, modernisation of social protection and essential services, education and skills development and a fair transition towards climate neutrality.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#24",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Applicants are encouraged to consider, where relevant, the services offered by the current and future EU-funded European Research Infrastructures, particularly those in the social sciences and humanities (SSH) domain [5] .",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#25",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Where applicable, proposals should leverage the data and services available through European Research Infrastructures federated under the European Open Science Cloud (EOSC), as well as data from relevant Data Spaces. Particular efforts should be made to ensure that the data produced in the context of this research is FAIR (Findable, Accessible, Interoperable and Re-usable).",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#26",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "To maximise the impacts of R&I under this Destination in line with EU priorities, international cooperation is encouraged whenever relevant in the proposed topics.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#27",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Research on social and economic transformations funded by topics in the present Work Programme will build upon its predecessors in Horizon 2020 and Horizon Europe and further push the boundaries of state-of-the-art knowledge. It will do so by further engaging with a vast array of stakeholders, not limited to universities and research centres, but also extending to social partners (trade unions and business organizations), civil society organizations, practitioners, VET providers, and SMEs.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#28",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The destination will rely on a carefully balanced mix of actions, to bring together a balanced and appropriate set of stakeholders to achieve research of the highest quality, while aiming at providing recommendations to policymakers at European, national, regional and local level that could have a beneficial societal and economic impact. In order to facilitate the latter, it will maximise the feedback to policy and the dissemination and exploitation of research and innovation results and practices in the domain of social and economic transformations.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#29",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[1] [https://op.europa.eu/en/publication-detail/-/publication/6abcc8e7-e685-11ee-8b2b-01aa75ed71a1/language-en](https://op.europa.eu/en/publication-detail/-/publication/6abcc8e7-e685-11ee-8b2b-01aa75ed71a1/language-en)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#30",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[2] [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021DC0101](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021DC0101)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#31",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[3] [https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities](https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#32",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[4] see topic HORIZON-CL2-2026-02-TRANSFO-01 in this Work Programme",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#33",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[5] [https://ri-portfolio.esfri.eu/](https://ri-portfolio.esfri.eu/) for example CESSDA - Consortium of European Social Science Data Archives",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#34",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**General conditions**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#35",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**1. Admissibility Conditions: Proposal page limit and layout**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#36",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex A](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) and [Annex E](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Horizon Europe Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#37",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Proposal page limits and layout:** described in Part B of the Application Form available in the Submission System.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#38",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The page limit for the Part B of the Research and Innovation (RIA) application using lump sum is 50 pages. In addition, it is mandatory to submit a detailed budget table, using the template available in the Submission System.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#39",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**2. Eligible Countries**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#40",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex B](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#41",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "A number of non-EU/non-Associated Countries that are not automatically eligible for funding have made specific provisions for making funding available for their participants in Horizon Europe projects. See the information in the [Horizon Europe Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf) .",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#42",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**3. Other Eligible Conditions**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#43",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex B](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#44",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**4. Financial and operational capacity and exclusion**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#45",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex C](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#46",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**5a. Evaluation and award: Award criteria, scoring and thresholds**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#47",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex D](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#48",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**5b. Evaluation and award: Submission and evaluation processes**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#49",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex F](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes and the [Online Manual](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/om_en.pdf) .",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#50",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**5c. Evaluation and award: Indicative timeline for evaluation and grant agreement**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#51",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in [Annex F](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#52",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**6. Legal and financial set-up of the grants**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#53",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Eligible costs will take the form of a lump sum as defined in the Decision of 7 July 2021 authorising the use of lump sum contributions under the Horizon Europe Programme – the Framework Programme for Research and Innovation (2021-2027) – and in actions under the Research and Training Programme of the European Atomic Energy Community (2021-2025) [[This [decision](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-decision_he_en.pdf) is available on the Funding and Tenders Portal, in the reference documents section for Horizon Europe, under ‘Simplified costs decisions’ or through this link: [https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-decision_he_en.pdf](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-decision_he_en.pdf) ]].",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#54",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "The granting authority may, up to 4 years after the end of the action, object to a transfer of ownership or to the exclusive licensing of results, as set out in the specific provision of Annex 5.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#55",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "In addition, as described in [Annex G](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf) of the Work Programme General Annexes.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#56",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Specific conditions**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#57",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "As described in the specific topic of the Work Programme.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#58",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Application and evaluation forms and model grant agreement (MGA):**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#59",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Application form templates** *— the application form specific to this call is available in the Submission System*",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#60",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Standard application form (HE RIA, IA)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/af/af_he-ria-ia_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#61",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Evaluation form templates** *— will be used with the necessary adaptations*",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#62",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Standard evaluation form (HE RIA, IA)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/ef/ef_he-ria-ia_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#63",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Guidance**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#64",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#65",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Model Grant Agreements (MGA)**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#66",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Lump Sum MGA](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/agr-contr/ls-mga_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#67",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "Call-specific instructions",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#68",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Detailed budget table (HE LS)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/temp-form/af/detailed-budget-table_he-ls-euratom_en.xlsm)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#69",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Guidance: \"Lump sums - what do I need to know?\"](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-funding-what-do-i-need-to-know_he_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#70",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "**Additional documents:**",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#71",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Main Work Programme 2026-2027 – 1. General Introduction](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-1-general-introduction_horizon-2026-2027_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#72",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Main Work Programme 2026-2027 – 5. Culture, Creativity and Inclusive Society](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-5-culture-creativity-and-inclusive-society_horizon-2026-2027_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#73",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Main Work Programme 2026-2027 – 15. General Annexes](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-15-general-annexes_horizon-2026-2027_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#74",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Programme Guide](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#75",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Framework Programme 2021/695](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32021R0695)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#76",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[HE Specific Programme Decision 2021/764](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32021D0764)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#77",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[EU Financial Regulation 2024/2509](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=OJ:L_202402509)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#78",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Decision authorising the use of lump sum contributions under the Horizon Europe Programme](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ls-decision_he_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#79",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Rules for Legal Entity Validation, LEAR Appointment and Financial Capacity Assessment](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/rules-lev-lear-fca_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#80",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[EU Grants AGA — Annotated Model Grant Agreement](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/aga_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#81",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Funding & Tenders Portal Online Manual](https://webgate.ec.europa.eu/funding-tenders-opportunities/display/OM/Online+Manual)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#82",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Funding & Tenders Portal Terms and Conditions](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/ftp/tc_en.pdf)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "call progetto europeo frictionless.docx#83",
+      "source": "call progetto europeo frictionless.docx",
+      "source_kind": "horizon_call",
+      "priority": "authoritative_for_call",
+      "text": "[Funding & Tenders Portal Privacy Statement](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/legalnotice)",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#1",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Instructions:",
+      "headings": [
+        "Work Packages Structure"
+      ],
+      "section_path": "Work Packages Structure",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#2",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Please use Title, Abstract and Role in the project as general reference. Write the WP using the following format provided by the Horizon template. Each WP will be 2 pages long.",
+      "headings": [
+        "Work Packages Structure"
+      ],
+      "section_path": "Work Packages Structure",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#3",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Youth-facing AI systems are increasingly designed to minimize friction, optimizing engagement and retention rather than for the kind of effortful, resistant engagement that sustains learning, critical thinking, and emotional resilience. DAIMON addresses this shift by treating epistemic friction as a measurable variable with direct consequences for cognitive autonomy and mental well-being in young users. The project moves from conceptual clarification, through technical operationalization, to large-scale empirical testing, and finally to policy-relevant deliverables. This trajectory is organized into eight Work Packages, each addressing a distinct stage of the research and innovation pathway, from the definition of foundational constructs to the dissemination of evidence-based guidelines for the design and regulation of AI companions targeting youth.",
+      "headings": [
+        "Introduction"
+      ],
+      "section_path": "Introduction",
+      "captions": [],
+      "page_numbers": [
+        1,
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#4",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "PI Fabio Grigenti (University of Padua), 1 = WP1: Conceptual Foundations: Defining Epistemic Friction, Cognitive Autonomy, and Related Constructs. Marco Tamborini (Unipegaso), 1 = WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools. Bernardo Magnini (FBK - Fondazione Bruno Kessler), 1 = WP3: Engineering the Epistemic Friction Score: Metric Design and LLM Behavioral Modeling. Antonella Marchetti (Università Cattolica Milan) - Davide Massaro (Università Cattolica Milan) - Mireia Vendrell Morancho (Artificial Intelligence research Institute - Spanish National Research Council), 1 = WP4: Experimental Design Foundations: Linking Theoretical Constructs to Measurable Outcomes. Ioana Podina (Mind Care 4All), 1 = WP5: The Dual-State RCT: Large-Scale Experimentation with Students. , 1 = WP6: Ecological Assessment of AI-Mediated Leisure Practices and Digital Well-being. PI Fabio Grigenti (University of Padua), 1 = WP7: Project Management, Coordination, and Quality Assurance. PI Fabio Grigenti (University of Padua), 1 = WP8: Dissemination, Communication, and Exploitation of Results",
+      "headings": [
+        "Overview of WPs and Participants"
+      ],
+      "section_path": "Overview of WPs and Participants",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#5",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP establishes the definitions for the project's core theoretical vocabulary. Drawing on epistemology, philosophy of education, and philosophy of mind, it distinguishes epistemic friction from mere difficulty or frustration and differentiates productive from unproductive forms of resistance. It further delineates the boundaries of Digital Cognitive Autonomy and Epistemic Agency as empirically testable constructs. The resulting conceptual scaffold anchors the vocabulary used by all subsequent technical and experimental Work Packages. Its output is a set of operative definitions suitable for translation into measurable variables.",
+      "headings": [
+        "WP1: Conceptual Foundations: Defining Epistemic Friction, Cognitive Autonomy, and Related Constructs"
+      ],
+      "section_path": "WP1: Conceptual Foundations: Defining Epistemic Friction, Cognitive Autonomy, and Related Constructs",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#6",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP1 supplies the foundational theoretical vocabulary on which the entire project depends; it is the upstream source from which the artifact-level categories of WP2 and the experimental metrics of WP4 are derived.",
+      "headings": [
+        "WP1: Conceptual Foundations: Defining Epistemic Friction, Cognitive Autonomy, and Related Constructs"
+      ],
+      "section_path": "WP1: Conceptual Foundations: Defining Epistemic Friction, Cognitive Autonomy, and Related Constructs",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#7",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Objectives:"
+      ],
+      "section_path": "Objectives:",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#8",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#9",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP analyses digital tools and AI companions not as neutral instruments but as practice-shaping artifacts embodying implicit pedagogical and cognitive theories. Through conceptual reverse-engineering, it reconstructs the design logics underlying anthropomorphic mirroring, instantaneous response, and frictionless compliance in current LLM-based systems. It compares these implicit theories against the constructs defined in WP1, producing a taxonomy of design patterns and their theorized cognitive and relational effects. This analysis is conducted at both a qualitative, theoretical level and a level oriented towards technical comparability. The output is a structured mapping between philosophical categories and artifact-level features.",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#10",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP2 functions as the conceptual hinge of the project, translating the abstract definitions produced in WP1 into artifact-specific categories that WP3 can operationalize into a computable score; without this mediating step, the philosophical and technical strands of the project would remain disconnected.",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#11",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Objectives:",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#12",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#13",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Description of work:",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#14",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools"
+      ],
+      "section_path": "WP2: From Concept to Artifact: Conceptual Analysis of AI Companions and Digital Tools",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#15",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP develops the technical architecture of the Epistemic Friction Score, building internal probing frameworks to overcome the opacity of proprietary AI systems. It analyses how post-training interventions, including instruction tuning and related alignment procedures, shift a model's frictional behaviour along the dimensions identified in WP2. It defines calibrated, computable benchmarks that integrate quantitative performance with qualitative pedagogical adherence. It further develops concrete methodologies for deliberately increasing or decreasing epistemic friction in LLM-based systems. The output is a validated score together with a set of modification methodologies ready for experimental use.",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#16",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP3 provides the technical backbone of the project, transforming the conceptual categories of WP1 and WP2 into a reproducible, manipulable instrument that serves as the independent variable for the experimental trial conducted in WP5.",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#17",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Objectives:",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#18",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#19",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Description of work:",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#20",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling"
+      ],
+      "section_path": "WP3:  Engineering  the  Epistemic  Friction  Score:  Metric  Design  and LLM Behavioral Modeling",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#21",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP defines the theoretical and methodological architecture underlying the social experiment. It operationalizes constructs such as cognitive autonomy, epistemic agency, and relevant mental health indicators into measurable instruments, including the Trust Trap protocol and associated psychometric scales. It specifies the correlational structure linking the Epistemic Friction Score to educational, cognitive, and emotional outcomes. It establishes the hypotheses, sampling strategy, and measurement plan that will govern the trial. The output is a validated experimental protocol ready for deployment at scale.",
+      "headings": [
+        "WP4: Experimental Design Foundations: Linking Theoretical Constructs to Measurable Outcomes"
+      ],
+      "section_path": "WP4: Experimental Design Foundations: Linking Theoretical Constructs to Measurable Outcomes",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#22",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP4 acts as the methodological bridge between the technical score produced in WP3 and the empirical trial conducted in WP5, ensuring that the large-scale experiment rests on validated constructs and instruments rather than on ad hoc measures.",
+      "headings": [
+        "WP4: Experimental Design Foundations: Linking Theoretical Constructs to Measurable Outcomes"
+      ],
+      "section_path": "WP4: Experimental Design Foundations: Linking Theoretical Constructs to Measurable Outcomes",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#23",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Objectives:"
+      ],
+      "section_path": "Objectives:",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#24",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#25",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP implements a controlled trial involving 2000 students selected across age groups, socio-economic backgrounds, cultural contexts, and ability profiles. It deploys AI systems calibrated to different Epistemic Friction Score values together with the Trust Trap protocol designed in WP4. It collects empirical data on cognitive focus, learning performance, epistemic agency, and emotional and mental health indicators. It tests the project's central hypothesis under realistic interaction conditions with youth. The output is the primary empirical dataset of the project.",
+      "headings": [
+        "WP5: The Dual-State RCT: Large-Scale Experimentation with Students"
+      ],
+      "section_path": "WP5: The Dual-State RCT: Large-Scale Experimentation with Students",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#26",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP5 constitutes the empirical core of DAIMON, the point at which the theoretical hypotheses and calibrated instruments developed in WP1 through WP4 are tested against real interactions between young users and AI systems, generating the evidence base for all downstream deliverables.",
+      "headings": [
+        "WP5: The Dual-State RCT: Large-Scale Experimentation with Students"
+      ],
+      "section_path": "WP5: The Dual-State RCT: Large-Scale Experimentation with Students",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#27",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Objectives:"
+      ],
+      "section_path": "Objectives:",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#28",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#29",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP investigates the ecological dimension of AI-mediated leisure practices among youth. It employs longitudinal and Experience Sampling Method (ESM) designs to observe everyday interactions with digital companions outside of educational settings. It maps current media repertoires and tracks daily fluctuations in digital well-being, emotional regulation, and perceived loneliness. It specifies the contextual variables mediating algorithmic passivity versus active engagement. The output is a comprehensive empirical dataset detailing the real-world impact of frictionless AI usage on adolescent cognitive and emotional habits.",
+      "headings": [
+        "WP6:  Ecological  Assessment  of  AI-Mediated  Leisure  Practices  and Digital Well-being"
+      ],
+      "section_path": "WP6:  Ecological  Assessment  of  AI-Mediated  Leisure  Practices  and Digital Well-being",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#30",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. This WP acts as the anchor between the theoretical framework and the controlled experimental phases, ensuring that the project's hypotheses and technical metrics remain firmly grounded in the actual media routines and daily digital realities of European youth.",
+      "headings": [
+        "WP6:  Ecological  Assessment  of  AI-Mediated  Leisure  Practices  and Digital Well-being"
+      ],
+      "section_path": "WP6:  Ecological  Assessment  of  AI-Mediated  Leisure  Practices  and Digital Well-being",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#31",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Objectives:"
+      ],
+      "section_path": "Objectives:",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#32",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#33",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP oversees the overall governance of the consortium, including administrative, financial, and legal compliance with Horizon Europe requirements. It coordinates collaboration across philosophy, psychology, AI, NGO, and industrial partners involved in the project. It manages risk, timeline adherence, and internal quality assurance across all Work Packages. It ensures compliance with ethical requirements arising from the involvement of minors as research participants. The output is the sustained, coherent execution of the project across its full duration.",
+      "headings": [
+        "WP7: Project Management, Coordination, and Quality Assurance"
+      ],
+      "section_path": "WP7: Project Management, Coordination, and Quality Assurance",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#34",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP7 guarantees the coherent, timely, and ethically compliant execution and integration of the seven research and innovation Work Packages, acting as the connective management layer of the consortium.",
+      "headings": [
+        "WP7: Project Management, Coordination, and Quality Assurance"
+      ],
+      "section_path": "WP7: Project Management, Coordination, and Quality Assurance",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#35",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Objectives:"
+      ],
+      "section_path": "Objectives:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#36",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#37",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Abstract. This WP plans and implements the dissemination of DAIMON's findings to academic, policy, and public audiences. It organizes workshops and scientific publications communicating the project's conceptual, technical, and empirical results. It engages schools, parents, regulators, and industry stakeholders with the guidelines and policy framework produced in WP6. It supports exploitation pathways for partner organizations, including the industrial partner. The output is a structured communication and exploitation plan ensuring uptake beyond the project's lifetime.",
+      "headings": [
+        "WP8: Dissemination, Communication, and Exploitation of Results"
+      ],
+      "section_path": "WP8: Dissemination, Communication, and Exploitation of Results",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#38",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Role in the project. WP8 amplifies and operationalizes the societal and policy reach of the project's outputs, ensuring that the evidence and guidelines generated by WP1 through WP6 achieve sustained uptake among policymakers, educators, and the AI industry.",
+      "headings": [
+        "WP8: Dissemination, Communication, and Exploitation of Results"
+      ],
+      "section_path": "WP8: Dissemination, Communication, and Exploitation of Results",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#39",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Objectives:",
+      "headings": [
+        "WP8: Dissemination, Communication, and Exploitation of Results"
+      ],
+      "section_path": "WP8: Dissemination, Communication, and Exploitation of Results",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#40",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "WP8: Dissemination, Communication, and Exploitation of Results"
+      ],
+      "section_path": "WP8: Dissemination, Communication, and Exploitation of Results",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "HORIZON - Work Packages Structure.docx.pdf#41",
+      "source": "HORIZON - Work Packages Structure.docx.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "…",
+      "headings": [
+        "Description of work:"
+      ],
+      "section_path": "Description of work:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#1",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Title: DAIMON: Digital Artifacts, Interrelational Mental Outcomes, and Narrative identity in Youth",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#2",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Call:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#3",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "HORIZON-CL2-2026-01-TRANSFO-04; Single Stage.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#4",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Deadline:",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#5",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "23 September 2026",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#6",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Layer 1: Leisure Time",
+      "headings": [
+        "Meeting 30/04/2026"
+      ],
+      "section_path": "Meeting 30/04/2026",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#7",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Tools: (Digital tools, social media) LLM companion",
+      "headings": [
+        "Meeting 30/04/2026"
+      ],
+      "section_path": "Meeting 30/04/2026",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#8",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Activity: sport, music, personal research, interrelational dialogues",
+      "headings": [
+        "Meeting 30/04/2026"
+      ],
+      "section_path": "Meeting 30/04/2026",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#9",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Practice involved: …",
+      "headings": [
+        "Meeting 30/04/2026"
+      ],
+      "section_path": "Meeting 30/04/2026",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#10",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Epistemic Friction Score (EFS) for each pair of [activity + digital tool involved]",
+      "headings": [
+        "Medium Layer:"
+      ],
+      "section_path": "Medium Layer:",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#11",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Correlation between EFS and:",
+      "headings": [
+        "Layer 2: Measurement"
+      ],
+      "section_path": "Layer 2: Measurement",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#12",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "1. Cognitive Autonomy (critical thinking, empathy, epistemic autonomy, metacognitive)\n2. mental health (loneliness, …)\n3. educational (task-oriented performance) (frictionless interaction and average performance > struggle and high performance)\n4. -dialog success.",
+      "headings": [
+        "Layer 2: Measurement"
+      ],
+      "section_path": "Layer 2: Measurement",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#13",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "A 14-year-old spends three hours a day interacting with Character.AI. The chatbot never disagrees, never hesitates, never says 'I don't know,' never asks the user to wait. It responds instantly, mirrors emotions, and adapts to the user's preferences. The interaction is smooth and uninterrupted. The question is not whether this is engaging. It clearly is. The question is what happens the next day, when the same teenager is asked to focus in class, to struggle with a difficult concept, or to engage with a teacher who challenges their assumptions.",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#14",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "This situation is no longer exceptional. Youth-facing AI systems are being deployed at scale, shaping cognitive habits during formative years. These systems operate largely outside educational and regulatory frameworks, yet they establish interaction norms that strongly influence attention, learning strategies, and emotional regulation. The design choices made now will become the baseline expectations of an entire generation. Once these expectations stabilize, changing them will be difficult.",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#15",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "From an engineering perspective, the core issue is not content or model capability, but interaction architecture. Most AI systems for young users are optimized for engagement, retention, and user satisfaction. To achieve this, they minimize friction: no delays, no resistance, no breakdowns, no forced decisions. This design logic is effective in the short term, but it conflicts with how learning and cognitive development actually work. Sustained attention, critical thinking, and emotional resilience depend on exposure to effort, uncertainty, disagreement, and limits. When interaction is designed to remove these elements, cognitive effort is displaced rather than supported.",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#16",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Yet, how do specific AI interaction patterns affect attention, learning, and autonomy in young users, and how can alternative designs support these capacities instead of eroding them? And, if AI",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#17",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "systems are becoming everyday learning environments for young people, what kind of minds are we engineering through their interaction design?",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#18",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Every AI interaction embodies a theory of mind. When a chatbot mirrors a teenager's emotions perfectly, it assumes emotional growth comes from validation rather than challenge. When it answers instantly, it assumes knowledge comes from retrieval rather than effort. When it maintains uninterrupted interaction, it assumes attention is something to capture, not something to train. These are not neutral choices. They are pedagogical assumptions implemented in code. DAIMON's contribution is to make these assumptions explicit, testable, and improvable.",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#19",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "This is why philosophy and engineering must work together at the design level. Philosophy is used to clarify concepts such as agency, dependence, assistance, and manipulation in ways that can be translated into technical specifications. Engineers then implement alternative interaction architectures that embody different assumptions: interaction boundaries that force user choice, intentional delays, refusal modes, reduced emotional mirroring, and prompts that shift initiative back to the user. AI systems become experimental platforms where interaction parameters are systematically controlled. Psychology and mental health research measure the effects on attention, learning performance, and emotional regulation. The urgency of DAIMON lies in timing. Youth-facing AI systems are rapidly normalizing frictionless interaction as the default. If this becomes the standard before evidence-based alternatives are developed, future regulation will be limited to reactive restrictions rather than informed design requirements. DAIMON intervenes at the only point where meaningful control is still possible: before interaction patterns harden into norms. The project's outputs are designed for policy and methodologies impact. DAIMON will deliver empirical evidence linking specific interaction patterns to cognitive outcomes and translate these findings into design guidelines for youth-facing AI. These guidelines can inform standards, public procurement, and regulation by identifying which interaction architectures undermine cognitive autonomy and which support it. This enables ex ante governance focused on system behavior rather than post-hoc user responsibility or usage limits.",
+      "headings": [
+        "Pitch Abstract"
+      ],
+      "section_path": "Pitch Abstract",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#20",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "DAIMON: Digital Artifacts, Interrelational Mental Outcomes, and Narrative identity in Youth",
+      "headings": [
+        "Project Draft"
+      ],
+      "section_path": "Project Draft",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#21",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "In response to HORIZON-CL2-2026-01-TRANSFO-04's call to investigate digital tools used outside school for leisure and communication , DAIMON addresses a critical paradigm shift: European youth are transitioning from passive media consumption to active AI-mediated relationships. As Generative AI chatbots, social robots, and AI companions enter the leisure sphere, these digital artifacts fundamentally reshape young people's Epistemic Agency (the capacity to focus, validate truth, and learn autonomously) and their emotional resilience .",
+      "headings": [
+        "1. Context and Motivation"
+      ],
+      "section_path": "1. Context and Motivation",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#22",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Current policy responses focus on screen-time limitation and data privacy, but this is insufficient. DAIMON proposes a radical new framework based on Epistemic Digital Autonomy , the right to mental self-determination free from manipulative algorithmic design, often included in most of the digital tools design. We hypothesize that 'frictionless' interactions erode youths' tolerance for the productive friction required for education and empathy , with measurable impacts on attention spans, critical thinking, and mental health indicators.",
+      "headings": [
+        "1. Context and Motivation"
+      ],
+      "section_path": "1. Context and Motivation",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#23",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Coordinated by a Philosophy of Technology unit (University of Padua and Pegaso University), DAIMON operationalizes deep conceptual analysis into rigorous empirical science. The consortium unites Psychology and Mental Health experts (Università Cattolica di Milano), AI researchers and developers (FBK Trento), NGO (Mind Care 4all), and Industrial partners (Mentalab), ensuring both academic rigor and relevance of the outcomes for the stakeholder .",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#24",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "The consortium is anchored by the coordinating leadership of the FISSPA Department at the University of Padua, which fosters a distinctively innovative synergy within the European academic landscape by bridging the disciplines of Philosophy, Sociology, Pedagogy, and Applied and Theoretical Psychology.",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#25",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "[Motivations underlying the composition of the consortium]",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#26",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Main Hypothesis:",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#27",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Our central hypothesis is that frictionless interaction with compliant AI agents erodes the youths' ability to tolerate the productive friction required for education, personal growth and epistemic autonomy.",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#28",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Reinforce the idea that frictionless designs are not good (literature).",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#29",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "The overarching objective of the project is to foster cognitive and epistemic autonomy through the informed use of the digital tools considered, facilitating a shift from frictionless interaction to critical engagement. The pivotal juncture of this transition lies in the critical discernment of what constitutes a conscious, self-determined usage, versus what conversely descends into manipulation and external direction or control.",
+      "headings": [
+        "2. The DAIMON proposal: A Transdisciplinary Approach"
+      ],
+      "section_path": "2. The DAIMON proposal: A Transdisciplinary Approach",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#30",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Evidence Base for policymakers : Deliver robust empirical data on how digital leisure tools affect learning capacity, attention span, and mental health.\n- Mechanisms of impact : Identify specific design patterns (infinite scroll, variable rewards, anthropomorphic manipulation) that undermine educational outcomes.\n- Mechanisms of mitigation : Identify specific software designs and methodologies that allow to select the degree of frictional interaction a system must have.\n- Policy recommendations : Provide actionable guidelines for \"Cognitive Ergonomics\" labeling and regulation of youth-facing AI\n- Stakeholder engagement : Co-design interventions with educators, parents, and youth themselves*** (tbd)",
+      "headings": [
+        "Alignment with TRANSFO-04 Expected Outcomes :"
+      ],
+      "section_path": "Alignment with TRANSFO-04 Expected Outcomes :",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#31",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "To this end, the project will implement a theoretical phase primarily oriented towards a fundamental empirical-practical development (WP1 & 2), followed by a technical-experimental phase designed to operationalize the hypotheses formulated in the initial stage (WP 3 & 4) [and a stakeholder-based WP5 tbd].",
+      "headings": [
+        "Alignment with TRANSFO-04 Expected Outcomes :"
+      ],
+      "section_path": "Alignment with TRANSFO-04 Expected Outcomes :",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#32",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "We classify the digital tools involved not by content, but by 'relational intensity' and by 'design patterns'. In other words, we analyse the digital tools not simply as mere tools but as practice-shaping artifacts:",
+      "headings": [
+        "The Conceptual Analysis (WP1):"
+      ],
+      "section_path": "The Conceptual Analysis (WP1):",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#33",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Digital companion ontology : Analyse the shift from 'cognitive tool' to 'cognitive partner.' How do current Large Language Models (LLMs) and general-purpose-chatbot simulate or embody empathy, trustworthiness, and other fundamental properties of relational and epistemic interactions?",
+      "headings": [
+        "The Conceptual Analysis (WP1):"
+      ],
+      "section_path": "The Conceptual Analysis (WP1):",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#34",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- [ ] Epistemic Friction: Their primary task would be to elaborate a rigorous definition of epistemic friction , understood as the cognitive and affective resistance encountered when a knowing subject engages with material, problems, or interlocutors. Drawing on epistemology and philosophy of education, we would distinguish epistemic friction from",
+      "headings": [
+        "The Conceptual Analysis (WP1):"
+      ],
+      "section_path": "The Conceptual Analysis (WP1):",
+      "captions": [],
+      "page_numbers": [
+        3
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#35",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "mere difficulty or frustration, grounding it as a necessary condition for genuine understanding and belief formation. We would further differentiate productive from unproductive friction, mapping the conditions under which resistance promotes epistemic growth rather than disengagement. This conceptual scaffold would allow the project to operationalize 'frictionlessness' as a measurable epistemic variable, identify which specific cognitive capacities AI compliance could erode, and normatively evaluate what forms of friction educational and technological design must preserve.",
+      "headings": [
+        "The Conceptual Analysis (WP1):"
+      ],
+      "section_path": "The Conceptual Analysis (WP1):",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#36",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- [ ] Definition and boundaries of Digital Cognitive Autonomy // *** : We will give an operative definition of the concept of cognitive autonomy, grounded in the academic debate, for empirical testing, and develop a scale that differentiates, encompassing intermediate states, between a condition of algorithmic passivity, where the human agent is fully hetero-directed, and one of conscious, critical engagement, where the human is fully cognitive autonomous and capable of epistemic autonomy and critical thinking.",
+      "headings": [
+        "The Conceptual Analysis (WP1):"
+      ],
+      "section_path": "The Conceptual Analysis (WP1):",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#37",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Conceptual reverse-engineering and technical comparative analysis : Preliminarily, rather than extracting source code from a finished product, we seek to reconstruct the conceptual matrix underlying the application. Every technological artifact embodies a specific theory, which is inevitably inscribed onto its outputs through direct or indirect transmission. From an educational perspective, our objective is to decode the dominant pedagogical, linguistic, and cognitive models governing AI models' generation behaviours and compare them to specific implemented technical solutions. This allows us to isolate and compare distinct models on two levels: a theoretical level (qualitative analysis) and a technical and performance-based level (quantitative analysis)",
+      "headings": [
+        "Technical analysis and grounding for the Epistemic Friction Score (WP2):"
+      ],
+      "section_path": "Technical analysis and grounding for the Epistemic Friction Score (WP2):",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#38",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Developing the 'Epistemic Friction score' : We will elaborate a standardized way to measure how much 'frictional interaction' a system realises. We hypothesize that non-productive AI requires near-zero cognitive effort and tends toward user compliance (frictionless design). Conversely, AI harnessed for critical formation demands effortful engagement. Such tools inevitably generate a higher cognitive load. Consequently, our guidelines will be based around different benchmarking methods developed to actively measure the full spectrum of the human-machine interaction. Specifically, the critical dimensions identified by the project (such as trustworthy vs. untrustworthy, relational vs. extractive, and effortful vs. frictionless) will not be treated as abstract categories, but as variables with precise calculability. The goal is to associate specific technical benchmarks with each of these oppositions: we will define metrics that integrate quantitative performance with computable qualitative assessment, thereby measuring the effective pedagogical adherence and safety of the models in real-world scenarios.",
+      "headings": [
+        "Technical analysis and grounding for the Epistemic Friction Score (WP2):"
+      ],
+      "section_path": "Technical analysis and grounding for the Epistemic Friction Score (WP2):",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#39",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Analyse and Develop methodologies to influence the 'Epistemic Friction score' : We will analyse how the post-training data influence the behaviour of LLM-based system, assessing whether an instruction increases or decreases Epistemic Friction in the interactions. By analysing these mechanisms, we will be able to modify them, proposing concrete methodologies to increase or decrease epistemic friction in LLM-based systems, trying to assess with educational and psychological studies and trials the optimal level of epistemic friction based on parameters such as education, age, situation, system, application.",
+      "headings": [
+        "Technical analysis and grounding for the Epistemic Friction Score (WP2):"
+      ],
+      "section_path": "Technical analysis and grounding for the Epistemic Friction Score (WP2):",
+      "captions": [],
+      "page_numbers": [
+        4
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#40",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "A controlled trial, involving 2000 students (chosen across different age groups, socio-economic backgrounds, cultural contexts, with or without disabilities), analyses the impact of LLM-based systems interaction on cognitive focus. Using a novel 'Trust Trap' protocol, we measure Epistemic Agency : when an AI companion deliberately 'hallucinates' a subtle error, does the student correct it, or do they surrender their critical judgment to the machine? [more…]",
+      "headings": [
+        "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):"
+      ],
+      "section_path": "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#41",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "A distinctive element of our proposal lies in the depth of the technical analysis applied to the AI models powering today's chatbot, understood as digital companions. To address the opacity of proprietary systems, the consortium will focus on the internal development of dedicated testing models (probing frameworks). This approach allows us to go beyond superficial evaluation and technically operationalize the relational dynamics of digital tools, helping in formulate grounded metrics and guidelines, to deepen the preliminary conceptual understanding of the artifact's ontology and, furthermore, to adapt the post-training instructions of the models to achieve active strategies to reach optimal level of epistemic friction, in relation to the trial's results.",
+      "headings": [
+        "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):"
+      ],
+      "section_path": "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#42",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Stakeholder engagement (WP5): Co-design interventions with educators, parents, and youth themselves*** (tbd)",
+      "headings": [
+        "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):"
+      ],
+      "section_path": "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#43",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- -Schools",
+      "headings": [
+        "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):"
+      ],
+      "section_path": "The 'Dual-State' RCT (WP3-WP4; Divide into theoretical protocol and actual experiment):",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#44",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "DAIMON will translate these findings into three concrete policy products, directly addressing the expected outcomes of the TRANSFO-04 call:",
+      "headings": [
+        "4. Expected Outcomes and Policy Impact (deliverables) (1-3)"
+      ],
+      "section_path": "4. Expected Outcomes and Policy Impact (deliverables) (1-3)",
+      "captions": [],
+      "page_numbers": [
+        5
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#45",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- 1. The 'Epistemic Friction' Labeling System: A consumer-facing framework that rates digital apps based on their cognitive load and epistemic friction. This provides parents and educators with actionable criteria for choosing 'healthy' digital leisure tools and optimal or sub-optimal values of an Epistemic Friction Score based on parameters such as education, age, situation, system, application.\n- o Accomplished if : found quantitative measurement valid for assessing the Epistemic Friction and creating an Epistemic Friction Score.\n- 2. Creation of the 'Epistemic Friction' Methodologies Dataset (Dare un Nome): A dataset comprehensive of all methodologies to implement in post-training sessions to fine tune LLM-based software on the appropriate level on the Epistemic Friction Score .\n- o Accomplished if : create a dataset of impactful instruction for post-training phase in order to modify the behaviour of a model, with the aim to influence the Epistemic Friction score.\n- 3. The 'Digital Cognitive Autonomy' Policy Framework: A set of regulatory 'Red Lines' for the design of AI companions targeting youth. We will propose specific bans on 'frictionless algorithms' in educational contexts, advocating for Constructive Friction as a mandatory design principle for youth-facing AI.\n- o Accomplished if : realise a policy framework compatible with current law on AI-system and further developments.\n- 3b. (accorpare) Guidelines on 'Digital Literacy' & Digital Cognitive Autonomy: A curriculum module realised in par with the stakeholders that moves beyond basic digital skills to teach 'critical reverse-engineering,' empowering students to recognize how algorithms shape their emotions and attention.\n- o Accomplished if : realise published literature for public and stakeholder interest in order to ground the correct-use of AI-system in youth age in scientific literature.",
+      "headings": [
+        "4. Expected Outcomes and Policy Impact (deliverables) (1-3)"
+      ],
+      "section_path": "4. Expected Outcomes and Policy Impact (deliverables) (1-3)",
+      "captions": [],
+      "page_numbers": [
+        5,
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#46",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "DAIMON represents a pivotal shift in addressing the digital well-being of European youth, moving beyond traditional screen-time metrics to protect both Cognitive and Epistemic Autonomy, Epistemic Agency in an era of AI-mediated relationships. By leveraging a uniquely integrated consortium, … , the project transcends reactive policymaking.",
+      "headings": [
+        "Conclusion"
+      ],
+      "section_path": "Conclusion",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#47",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Through its innovative investigation into frictionless design patterns and Trust Trap protocols, DAIMON will deliver the empirical evidence and Cognitive Ergonomics frameworks necessary to ensure that AI companions function as tools for extending critical thought rather than eroding it.",
+      "headings": [
+        "Conclusion"
+      ],
+      "section_path": "Conclusion",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#48",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Conceptual - Ethical Analysis, Referent = Fabio Grigenti. Conceptual - Ethical Analysis, Organization* = FISPPA Department. Conceptual - Ethical Analysis, Location = Università degli Studi di Padova. Conceptual - Ethical Analysis, Project Roles = Consortium Coordinator; WP1 - WP7 - WP8. Media Change and Innovation, Referent = Desirée Schmuck. Media Change and Innovation, Organization* = Department of Communication. Media Change and Innovation, Location = University of Vienna. Media Change and Innovation, Project Roles = . Technical Model Design, Referent = Bernardo Magnini. Technical Model Design, Organization* = Natural Language Processing unit (NLP). Technical Model Design, Location = FBK - Fondazione Bruno Kessler (Trento). Technical Model Design, Project Roles = WP3. Psychology, Referent = Antonella Marchetti - Davide Massaro. Psychology, Organization* = Psychology Department. Psychology, Location = Università Cattolica (Milano). Psychology, Project Roles = WP4. , Referent = Ioana R. Podina. , Organization* = Mind Care 4ALL. , Location = Bucarest. , Project Roles = WP5. , Referent = Mireia Vendrell Morancho. , Organization* = Artificial Intelligence research Institute - Spanish National Research Council. , Location = Barcelona. , Project Roles = WP4. Philosophy of Technology, Referent = Marco Tamborini. Philosophy of Technology, Organization* = Dipartimento di Filosofia. Philosophy of Technology, Location = Pegaso University. Philosophy of Technology, Project Roles = WP2. Schools and Sport centers, Referent = . Schools and Sport centers, Organization* = . Schools and Sport centers, Location = . Schools and Sport centers, Project Roles =",
+      "headings": [
+        "Working Team divided per unit:"
+      ],
+      "section_path": "Working Team divided per unit:",
+      "captions": [],
+      "page_numbers": [
+        6
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#49",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Industrial, 1 = Christoph. Industrial, 2 = Mentalab. Industrial, 3 = Munich. Industrial, 4 = Collaboration. Industrial, 5 = in. Partner, 1 = Aurnhammer. Partner, 2 = . Partner, 3 = . Partner, 4 = WP3 - WP5. Partner, 5 =",
+      "headings": [
+        "Working Team divided per unit:"
+      ],
+      "section_path": "Working Team divided per unit:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#50",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End of April / Early May: Consortium 1st meeting.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#51",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- 15 May: call opening.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#52",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End of June: first draft (each group works on its part) + meeting.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#53",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Early July: Project is sent to Research Offices.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#54",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End July: Research Office draft (budget…)",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#55",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- ●",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#56",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- 31st August: Final Draft.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "Horizon PresentationDraft.docx (1).pdf#57",
+      "source": "Horizon PresentationDraft.docx (1).pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Final Deadline: 23 September 2026",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        7
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#1",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- o Accomplished if : realise published literature for public and stakeholder interest in order to ground the correct-use of AI-system in youth age in scientific literature.",
+      "headings": [],
+      "section_path": "",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#2",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "DAIMON represents a pivotal shift in addressing the digital well-being of European youth, moving beyond traditional screen-time metrics to protect both Cognitive and Epistemic Autonomy, Epistemic Agency in an era of AI-mediated relationships. By leveraging a uniquely integrated consortium, … , the project transcends reactive policymaking.",
+      "headings": [
+        "Conclusion"
+      ],
+      "section_path": "Conclusion",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#3",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Through its innovative investigation into frictionless design patterns and Trust Trap protocols, DAIMON will deliver the empirical evidence and Cognitive Ergonomics frameworks necessary to ensure that AI companions function as tools for extending critical thought rather than eroding it.",
+      "headings": [
+        "Conclusion"
+      ],
+      "section_path": "Conclusion",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#4",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Conceptual - Ethical Analysis, Referent = Fabio Grigenti. Conceptual - Ethical Analysis, Organization* = FISPPA Department. Conceptual - Ethical Analysis, Location = Università degli Studi di Padova. Conceptual - Ethical Analysis, Project Roles = Consortium Coordinator; WP1 - WP7 - WP8. Media Change and Innovation, Referent = Desirée Schmuck. Media Change and Innovation, Organization* = Department of Communication. Media Change and Innovation, Location = University of Vienna. Media Change and Innovation, Project Roles = . Technical Model Design, Referent = Bernardo Magnini. Technical Model Design, Organization* = Natural Language Processing unit (NLP). Technical Model Design, Location = FBK - Fondazione Bruno Kessler (Trento). Technical Model Design, Project Roles = WP3. Psychology, Referent = Antonella Marchetti - Davide Massaro. Psychology, Organization* = Psychology Department. Psychology, Location = Università Cattolica (Milano). Psychology, Project Roles = WP4. , Referent = Ioana R. Podina. , Organization* = Mind Care 4ALL. , Location = Bucarest. , Project Roles = WP5. , Referent = Mireia Vendrell Morancho. , Organization* = Artificial Intelligence research Institute - Spanish National Research Council. , Location = Barcelona. , Project Roles = WP4. Philosophy of Technology, Referent = Marco Tamborini. Philosophy of Technology, Organization* = Dipartimento di Filosofia. Philosophy of Technology, Location = Pegaso University. Philosophy of Technology, Project Roles = WP2. Schools and Sport centers, Referent = . Schools and Sport centers, Organization* = . Schools and Sport centers, Location = . Schools and Sport centers, Project Roles =",
+      "headings": [
+        "Working Team divided per unit:"
+      ],
+      "section_path": "Working Team divided per unit:",
+      "captions": [],
+      "page_numbers": [
+        1
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#5",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "Industrial, 1 = Christoph. Industrial, 2 = Mentalab. Industrial, 3 = Munich. Industrial, 4 = Collaboration. Industrial, 5 = in. Partner, 1 = Aurnhammer. Partner, 2 = . Partner, 3 = . Partner, 4 = WP3 - WP5. Partner, 5 =",
+      "headings": [
+        "Working Team divided per unit:"
+      ],
+      "section_path": "Working Team divided per unit:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#6",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End of April / Early May: Consortium 1st meeting.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#7",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- 15 May: call opening.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#8",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End of June: first draft (each group works on its part) + meeting.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#9",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Early July: Project is sent to Research Offices.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#10",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- End July: Research Office draft (budget…)",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#11",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- 31st August: Final Draft.",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    },
+    {
+      "id": "partners table.pdf#12",
+      "source": "partners table.pdf",
+      "source_kind": "project_document",
+      "priority": "project_draft_may_be_outdated",
+      "text": "- Final Deadline: 23 September 2026",
+      "headings": [
+        "Tentative Timeline:"
+      ],
+      "section_path": "Tentative Timeline:",
+      "captions": [],
+      "page_numbers": [
+        2
+      ],
+      "chunking": "docling_HierarchicalChunker"
+    }
+  ]
+}
