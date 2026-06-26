@@ -148,47 +148,208 @@ def write_answer_files(shared: dict) -> None:
     answer = shared.get("result", shared.get("draft_answer", ""))
     markdown = f"# Answer\n\nTask: {shared.get('task')}\n\n{answer}\n"
     Path(artifacts["answer_md"]).write_text(markdown, encoding="utf-8")
-    write_simple_pdf(
-        artifacts["answer_pdf"],
-        f"DAIMON Proposal Agent Answer\n\nTask: {shared.get('task')}\n\n{answer}",
-    )
+    write_markdown_pdf(artifacts["answer_pdf"], markdown)
 
 
 def pdf_escape(text: str) -> str:
     return text.replace("\\", "\\\\").replace("(", "\\(").replace(")", "\\)")
 
 
-def wrap_pdf_text(text: str, width: int = 92) -> list[str]:
+def parse_inline_markdown(text: str) -> list[dict]:
+    segments = []
+    idx = 0
+    active = {"bold": False, "italic": False}
+    marker_pattern = re.compile(r"(\*\*\*|___|\*\*|__|\*|_)")
+
+    for match in marker_pattern.finditer(text):
+        if match.start() > idx:
+            segments.append(
+                {
+                    "text": text[idx : match.start()],
+                    "bold": active["bold"],
+                    "italic": active["italic"],
+                }
+            )
+
+        marker = match.group(1)
+        if marker in {"***", "___"}:
+            active["bold"] = not active["bold"]
+            active["italic"] = not active["italic"]
+        elif marker in {"**", "__"}:
+            active["bold"] = not active["bold"]
+        else:
+            active["italic"] = not active["italic"]
+        idx = match.end()
+
+    if idx < len(text):
+        segments.append(
+            {
+                "text": text[idx:],
+                "bold": active["bold"],
+                "italic": active["italic"],
+            }
+        )
+
+    return [segment for segment in segments if segment["text"]]
+
+
+def segment_font(segment: dict, default_font: str = "F1") -> str:
+    if segment.get("code"):
+        return "F5"
+    if segment.get("bold") and segment.get("italic"):
+        return "F4"
+    if segment.get("bold"):
+        return "F2"
+    if segment.get("italic"):
+        return "F3"
+    return default_font
+
+
+def strip_inline_markers(text: str) -> str:
+    return re.sub(r"(\*\*\*|___|\*\*|__|\*|_)", "", text)
+
+
+def split_segments_words(segments: list[dict]) -> list[dict]:
+    words = []
+    for segment in segments:
+        for token in re.findall(r"\S+\s*", segment["text"]):
+            if token:
+                word = dict(segment)
+                word["text"] = token
+                words.append(word)
+    return words
+
+
+def wrap_segments(segments: list[dict], max_chars: int) -> list[list[dict]]:
+    words = split_segments_words(segments)
+    if not words:
+        return [[]]
+
     lines = []
-    for paragraph in text.splitlines():
-        if not paragraph.strip():
-            lines.append("")
-            continue
-        words = paragraph.split()
-        line = ""
-        for word in words:
-            candidate = f"{line} {word}".strip()
-            if len(candidate) <= width:
-                line = candidate
-            else:
-                if line:
-                    lines.append(line)
-                line = word
-        if line:
-            lines.append(line)
+    current = []
+    current_len = 0
+    for word in words:
+        word_len = len(word["text"])
+        if current and current_len + word_len > max_chars:
+            lines.append(current)
+            current = []
+            current_len = 0
+        current.append(word)
+        current_len += word_len
+    if current:
+        lines.append(current)
     return lines
 
 
-def write_simple_pdf(path: str | Path, text: str) -> None:
+def markdown_to_pdf_lines(markdown: str) -> list[dict]:
+    pdf_lines = []
+    in_code = False
+
+    for raw_line in markdown.splitlines():
+        line = raw_line.rstrip()
+
+        if line.strip().startswith("```"):
+            in_code = not in_code
+            pdf_lines.append({"segments": [], "size": 4, "indent": 50})
+            continue
+
+        if in_code:
+            pdf_lines.append(
+                {
+                    "segments": [{"text": line, "code": True}],
+                    "size": 9,
+                    "indent": 58,
+                    "leading": 12,
+                }
+            )
+            continue
+
+        if not line.strip():
+            pdf_lines.append({"segments": [], "size": 6, "indent": 50})
+            continue
+
+        heading_match = re.match(r"^(#{1,6})\s+(.+)$", line)
+        if heading_match:
+            level = len(heading_match.group(1))
+            text = strip_inline_markers(heading_match.group(2).strip())
+            size = {1: 20, 2: 16, 3: 14}.get(level, 12)
+            if pdf_lines:
+                pdf_lines.append({"segments": [], "size": 5, "indent": 50})
+            pdf_lines.append(
+                {
+                    "segments": [{"text": text, "bold": True}],
+                    "size": size,
+                    "indent": 50,
+                    "leading": size + 6,
+                }
+            )
+            continue
+
+        bullet_match = re.match(r"^(\s*)[-*+]\s+(.+)$", line)
+        if bullet_match:
+            level = len(bullet_match.group(1)) // 2
+            content = bullet_match.group(2)
+            segments = [{"text": "- ", "bold": True}] + parse_inline_markdown(content)
+            for idx, wrapped in enumerate(wrap_segments(segments, max(40, 82 - level * 4))):
+                pdf_lines.append(
+                    {
+                        "segments": wrapped if idx == 0 else [{"text": "  "}] + wrapped,
+                        "size": 10,
+                        "indent": 58 + level * 18,
+                        "leading": 13,
+                    }
+                )
+            continue
+
+        numbered_match = re.match(r"^(\s*)(\d+)[.)]\s+(.+)$", line)
+        if numbered_match:
+            level = len(numbered_match.group(1)) // 2
+            prefix = f"{numbered_match.group(2)}. "
+            segments = [{"text": prefix, "bold": True}] + parse_inline_markdown(numbered_match.group(3))
+            for idx, wrapped in enumerate(wrap_segments(segments, max(40, 82 - level * 4))):
+                pdf_lines.append(
+                    {
+                        "segments": wrapped if idx == 0 else [{"text": " " * len(prefix)}] + wrapped,
+                        "size": 10,
+                        "indent": 58 + level * 18,
+                        "leading": 13,
+                    }
+                )
+            continue
+
+        segments = parse_inline_markdown(line)
+        for wrapped in wrap_segments(segments, 92):
+            pdf_lines.append(
+                {
+                    "segments": wrapped,
+                    "size": 10,
+                    "indent": 50,
+                    "leading": 13,
+                }
+            )
+    return pdf_lines
+
+
+def write_markdown_pdf(path: str | Path, markdown: str) -> None:
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
-    wrapped = wrap_pdf_text(text)
-    lines_per_page = 48
-    pages = [
-        wrapped[i : i + lines_per_page]
-        for i in range(0, len(wrapped), lines_per_page)
-    ] or [[""]]
+    rendered_lines = markdown_to_pdf_lines(markdown)
+    pages = []
+    page = []
+    y = 750
+    for line in rendered_lines:
+        leading = line.get("leading", line.get("size", 10) + 3)
+        if y - leading < 50 and page:
+            pages.append(page)
+            page = []
+            y = 750
+        page.append(line | {"y": y})
+        y -= leading
+    if page:
+        pages.append(page)
+    if not pages:
+        pages = [[{"segments": [{"text": ""}], "size": 10, "indent": 50, "y": 750}]]
 
     objects = []
     objects.append("<< /Type /Catalog /Pages 2 0 R >>")
@@ -200,16 +361,38 @@ def write_simple_pdf(path: str | Path, text: str) -> None:
         content_obj_num = page_obj_num + 1
         objects.append(
             f"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] "
-            f"/Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> "
+            f"/Resources << /Font << "
+            f"/F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> "
+            f"/F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> "
+            f"/F3 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >> "
+            f"/F4 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-BoldOblique >> "
+            f"/F5 << /Type /Font /Subtype /Type1 /BaseFont /Courier >> "
+            f">> >> "
             f"/Contents {content_obj_num} 0 R >>"
         )
 
-        content_lines = ["BT", "/F1 10 Tf", "50 750 Td", "14 TL"]
+        content_lines = []
         for line in page_lines:
-            safe_line = pdf_escape(line.encode("latin-1", errors="replace").decode("latin-1"))
-            content_lines.append(f"({safe_line}) Tj")
-            content_lines.append("T*")
-        content_lines.append("ET")
+            segments = line.get("segments", [])
+            if not segments:
+                continue
+            size = line.get("size", 10)
+            indent = line.get("indent", 50)
+            y_pos = line.get("y", 750)
+            content_lines.append("BT")
+            content_lines.append(f"{indent} {y_pos} Td")
+            active_font = None
+            for segment in segments:
+                text = segment.get("text", "")
+                if not text:
+                    continue
+                font = segment_font(segment)
+                if font != active_font:
+                    content_lines.append(f"/{font} {size} Tf")
+                    active_font = font
+                safe_text = pdf_escape(text.encode("latin-1", errors="replace").decode("latin-1"))
+                content_lines.append(f"({safe_text}) Tj")
+            content_lines.append("ET")
         content = "\n".join(content_lines)
         content_bytes = content.encode("latin-1", errors="replace")
         objects.append(
