@@ -230,7 +230,6 @@ You are reviewing an answer from a Horizon Europe proposal assistant.
 
 Check whether the answer:
 - follows the user's request
-- respects the freshness rule that last_news.txt overrides older project drafts
 - aligns with the Horizon call requirements
 - avoids inventing partner facts, especially where researcher profiles are unresolved
 - gives actionable WP/proposal guidance

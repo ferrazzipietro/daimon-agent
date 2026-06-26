@@ -13,5 +13,3 @@ Include, where useful:
 - expected call outcomes addressed
 - risks and mitigation
 - assumptions and open information needed from the user
-
-Respect source priority. If last_news.txt conflicts with an older project draft, follow last_news.txt and name the conflict briefly.
