@@ -92,8 +92,9 @@ Copy `.env.example` to `.env` if you want to keep local OpenAI settings beside t
 - `OPENAI_API_KEY`
 - `OPENAI_MODEL`
 - `DAIMON_DATA_DIR`, optional path to the source documents directory
+- `DAIMON_DOCLING_OCR`, optional OCR toggle; defaults to `false`
 
-DOCX and PDF ingestion uses Docling. The memory builder converts each source into Docling's structured document model and then chunks by hierarchy/sections/paragraphs. If Docling is missing or a source cannot be converted into real text, the run fails instead of indexing placeholder text. Install `docling` or provide source files Docling can convert, then rebuild memory.
+DOCX and PDF ingestion uses Docling. The memory builder converts each source into Docling's structured document model and then chunks by hierarchy/sections/paragraphs. PDF OCR is disabled by default to avoid unsupported OCR model configurations; enable `DAIMON_DOCLING_OCR=true` only for scanned PDFs and a working OCR backend. If Docling is missing or a source cannot be converted into real text, the run fails instead of indexing placeholder text. Install `docling` or provide source files Docling can convert, then rebuild memory.
 
 ## Freshness Rule
 

@@ -287,13 +287,57 @@ def get_docling_components():
     return DocumentConverter, chunker_cls, chunker_import_errors
 
 
+def env_flag(name: str, default: bool = False) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def create_docling_converter(path: Path, DocumentConverter):
+    if path.suffix.lower() != ".pdf":
+        return DocumentConverter()
+
+    do_ocr = env_flag("DAIMON_DOCLING_OCR", default=False)
+
+    try:
+        from docling.datamodel.base_models import InputFormat
+        from docling.datamodel.pipeline_options import PdfPipelineOptions
+        from docling.document_converter import PdfFormatOption
+
+        pipeline_options = PdfPipelineOptions()
+        if hasattr(pipeline_options, "do_ocr"):
+            pipeline_options.do_ocr = do_ocr
+        if hasattr(pipeline_options, "do_table_structure"):
+            pipeline_options.do_table_structure = True
+
+        return DocumentConverter(
+            format_options={
+                InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
+            }
+        )
+    except Exception:
+        # Older Docling versions may not expose these configuration classes.
+        # In that case, continue with the default converter and let strict
+        # extraction validation decide whether the result is usable.
+        return DocumentConverter()
+
+
 def convert_with_docling(path: Path):
     DocumentConverter, chunker_cls, chunker_import_errors = get_docling_components()
-    converter = DocumentConverter()
+    converter = create_docling_converter(path, DocumentConverter)
     try:
         result = converter.convert(str(path))
     except Exception as exc:
-        raise DocumentExtractionError(f"Docling could not convert {path.name}: {exc}") from exc
+        hint = ""
+        if "OCR" in str(exc) or "PP-OCR" in str(exc):
+            hint = (
+                " OCR is disabled by default in this agent; if this error persists, "
+                "your installed Docling version may ignore the no-OCR option. "
+                "Try exporting the PDF as DOCX/TXT or use a Docling version with "
+                "PdfPipelineOptions.do_ocr support."
+            )
+        raise DocumentExtractionError(f"Docling could not convert {path.name}: {exc}.{hint}") from exc
 
     document = getattr(result, "document", None)
     if document is None:
