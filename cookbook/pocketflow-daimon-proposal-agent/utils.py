@@ -575,21 +575,43 @@ def tokenize(text: str) -> list[str]:
 
 
 def score_chunk(query_terms: Counter, chunk: dict) -> float:
-    metadata_text = " ".join(
-        [
-            chunk.get("source", ""),
-            chunk.get("source_kind", ""),
-            chunk.get("section_path", ""),
-            " ".join(chunk.get("headings", [])),
-        ]
-    )
-    text_terms = Counter(tokenize(chunk["text"] + " " + metadata_text))
+    body_terms = Counter(tokenize(chunk.get("text", "")))
+    heading_text = " ".join(chunk.get("headings", []))
+    section_path = chunk.get("section_path", "")
+    source_text = " ".join([chunk.get("source", ""), chunk.get("source_kind", "")])
+    heading_terms = Counter(tokenize(heading_text + " " + section_path))
+    source_terms = Counter(tokenize(source_text))
+
     score = 0.0
     for term, weight in query_terms.items():
-        score += text_terms.get(term, 0) * weight
+        score += body_terms.get(term, 0) * weight
+        score += heading_terms.get(term, 0) * weight * 4
+        score += source_terms.get(term, 0) * weight * 0.5
+
+    query_text = " ".join(query_terms.keys())
+    heading_text_l = (heading_text + " " + section_path).lower()
+    for phrase in extract_query_phrases(query_text):
+        if phrase in heading_text_l:
+            score += 8
+
+    query_wp = re.findall(r"\bwp\s*0*(\d+)\b", query_text, flags=re.IGNORECASE)
+    heading_wp = re.findall(r"\bwp\s*0*(\d+)\b", heading_text_l, flags=re.IGNORECASE)
+    for wp in query_wp:
+        if wp in heading_wp:
+            score += 20
+
     if re.search(r"\bWP\s*\d+\b", chunk["text"], flags=re.IGNORECASE):
         score += 1.5
     return score
+
+
+def extract_query_phrases(query_text: str) -> list[str]:
+    tokens = tokenize(query_text)
+    phrases = []
+    for size in (4, 3, 2):
+        for idx in range(0, max(0, len(tokens) - size + 1)):
+            phrases.append(" ".join(tokens[idx : idx + size]))
+    return phrases
 
 
 def retrieve_context(memory: dict, query: str, top_k: int = 8) -> list[dict]:
