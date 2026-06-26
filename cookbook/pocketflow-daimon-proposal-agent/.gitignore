@@ -1,0 +1,4 @@
+__pycache__/
+project_memory.json
+.env
+logs/

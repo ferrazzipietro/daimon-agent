@@ -1,0 +1,19 @@
+Obiettivo
+Individuare agenti di commercio o distributori/importatori di Germania, Polonia, Romania, Repubblica Ceca, che rispondano ad alcune caratteristiche.
+
+Stato attuale
+Ricerca manuale sul web via parole chiave di settore; uso di AI con funzioni di web search.
+
+Potenziale ottimizzazione AI-based
+L’utilizzo dell’AI può rendere molto più efficiente l’attività di ricerca di agenti e distributori esteri. Rispetto alla ricerca tradizionale basata solo su keyword, l’AI consente di:
+•	effettuare ricerche simultanee in più lingue (inglese, tedesco, polacco, rumeno, ceco);
+•	analizzare automaticamente i siti web delle aziende;
+•	classificare i potenziali partner in base alla reale compatibilità commerciale;
+•	estrarre contatti commerciali e figure decisionali;
+•	creare shortlist qualificate.
+
+3.	Soluzione Avanzata – AI Export Intelligence
+Creazione di un agente AI dedicato che ha accesso a diversi strumenti (ricerca sul web, mercati e nuovi operatori nei paesi target, aggiornando automaticamente il database e generando shortlist prioritarie.
+Il sistema può anche predisporre email commerciali personalizzate e report periodici.
+Vantaggi: forte scalabilità, aggiornamento continuo, approccio data-driven all’export development. 
+Lavoro manuale: individuare parole chiave, 

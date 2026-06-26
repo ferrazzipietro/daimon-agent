@@ -1,0 +1,8 @@
+openai>=1.0.0
+pyyaml>=6.0
+
+# Docling 1.20 keeps docling-parse in the 1.x line, which still publishes
+# macOS 13 arm64 wheels. Newer docling-parse releases may require macOS 14
+# arm64 wheels and fall back to a local C++ build on older macOS versions.
+docling==2.81.0
+# docling-parse==1.6.2
