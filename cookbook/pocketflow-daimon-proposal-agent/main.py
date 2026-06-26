@@ -77,6 +77,7 @@ def main():
         for update in memory.get("current_updates", []):
             print(f"- {update}")
         print(f"\nChunks indexed: {len(memory.get('chunks', []))}")
+        print(f"Partners indexed: {len(memory.get('partners', {}))}")
         return
 
     print(f"📝 Task: {args.task}")

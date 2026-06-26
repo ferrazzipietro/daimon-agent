@@ -13,6 +13,7 @@ import yaml
 ROOT_DIR = Path(__file__).resolve().parents[2]
 MEMORY_PATH = Path(__file__).resolve().parent / "project_memory.json"
 LOGS_DIR = Path(__file__).resolve().parent / "logs"
+PARTNER_WEB_PROFILES_PATH = Path(__file__).resolve().parent / "partner_web_profiles.json"
 INVALID_EXTRACTION_MARKERS = (
     "PDF text was not extracted",
     "Could not extract DOCX text",
@@ -717,6 +718,187 @@ def chunk_plain_text_paragraphs(text: str, source: str, source_kind: str, priori
     return chunks
 
 
+def load_partner_web_profiles(path: Path = PARTNER_WEB_PROFILES_PATH) -> dict:
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def normalize_partner_name(name: str) -> str:
+    name = re.sub(r"\s+", " ", name).strip(" -–—;:,")
+    return name
+
+
+def merge_partner(partners: dict, name: str, **fields) -> None:
+    name = normalize_partner_name(name)
+    if not name:
+        return
+    current = partners.setdefault(name, {"name": name})
+    for key, value in fields.items():
+        if value in (None, "", [], {}):
+            continue
+        if key == "roles":
+            existing = current.setdefault("roles", [])
+            for role in value if isinstance(value, list) else [value]:
+                if role and role not in existing:
+                    existing.append(role)
+        elif key == "sources":
+            existing = current.setdefault("sources", [])
+            for source in value if isinstance(value, list) else [value]:
+                if source and source not in existing:
+                    existing.append(source)
+        elif key == "workpackages":
+            existing = current.setdefault("workpackages", [])
+            for wp in value if isinstance(value, list) else [value]:
+                if wp and wp not in existing:
+                    existing.append(wp)
+        else:
+            if key not in current or not current[key]:
+                current[key] = value
+
+
+def extract_wps(text: str) -> list[str]:
+    return sorted(set(re.findall(r"\bWP\s*\d+\b", text, flags=re.IGNORECASE)), key=lambda item: int(re.search(r"\d+", item).group()))
+
+
+def extract_partners_from_last_news(text: str) -> dict:
+    partners = {}
+    if re.search(r"Mireia\s+Vendrell", text, flags=re.IGNORECASE):
+        merge_partner(
+            partners,
+            "Mireia Vendrell Morancho",
+            location="Barcelona, Spain",
+            current_project_role="Data collection in Spain",
+            roles=["Data collection in Spain"],
+            sources=["last_news.txt"],
+        )
+    if re.search(r"Desir[ée]e?\s+Schmuck", text, flags=re.IGNORECASE):
+        merge_partner(
+            partners,
+            "Desirée Schmuck",
+            location="Vienna, Austria",
+            current_project_role="Changes caused by AI in technology users",
+            roles=["AI-related changes in technology users"],
+            sources=["last_news.txt"],
+        )
+    return partners
+
+
+def known_partner_patterns() -> list[dict]:
+    return [
+        {
+            "name": "Fabio Grigenti",
+            "unit": "Conceptual-Ethical Analysis",
+            "organization": "FISPPA Department, Universita degli Studi di Padova",
+            "location": "Padova, Italy",
+            "roles": ["Consortium Coordinator"],
+            "workpackages": ["WP1", "WP7", "WP8"],
+        },
+        {
+            "name": "Desirée Schmuck",
+            "unit": "Media Change and Innovation",
+            "organization": "Department of Communication, University of Vienna",
+            "location": "Vienna, Austria",
+            "roles": [],
+            "workpackages": [],
+        },
+        {
+            "name": "Bernardo Magnini",
+            "unit": "Technical Model Design",
+            "organization": "Natural Language Processing unit, FBK - Fondazione Bruno Kessler",
+            "location": "Trento, Italy",
+            "roles": [],
+            "workpackages": ["WP3"],
+        },
+        {
+            "name": "Antonella Marchetti",
+            "unit": "Psychology",
+            "organization": "Psychology Department, Universita Cattolica",
+            "location": "Milano, Italy",
+            "roles": [],
+            "workpackages": ["WP4"],
+        },
+        {
+            "name": "Davide Massaro",
+            "unit": "Psychology",
+            "organization": "Psychology Department, Universita Cattolica",
+            "location": "Milano, Italy",
+            "roles": [],
+            "workpackages": ["WP4"],
+        },
+        {
+            "name": "Ioana R. Podina",
+            "unit": "Psychology",
+            "organization": "Mind Care 4ALL",
+            "location": "Bucharest, Romania",
+            "roles": [],
+            "workpackages": ["WP5"],
+        },
+        {
+            "name": "Mireia Vendrell Morancho",
+            "unit": "Psychology",
+            "organization": "Artificial Intelligence Research Institute - Spanish National Research Council",
+            "location": "Barcelona, Spain",
+            "roles": [],
+            "workpackages": ["WP4"],
+        },
+        {
+            "name": "Marco Tamborini",
+            "unit": "Philosophy of Technology",
+            "organization": "Dipartimento di Filosofia, Pegaso University",
+            "location": "Italy",
+            "roles": [],
+            "workpackages": ["WP2"],
+        },
+        {
+            "name": "Christoph Aurnhammer",
+            "unit": "Industrial Partner",
+            "organization": "Mentalab",
+            "location": "Munich, Germany",
+            "roles": ["Industrial partner"],
+            "workpackages": ["WP3", "WP5"],
+        },
+    ]
+
+
+def extract_partners_from_partner_table(chunks: list[dict]) -> dict:
+    table_chunks = [
+        chunk for chunk in chunks
+        if chunk.get("source", "").lower() == "partners table.pdf"
+    ]
+    text = "\n".join(chunk.get("text", "") for chunk in table_chunks)
+    partners = {}
+    if not text:
+        return partners
+
+    for item in known_partner_patterns():
+        name_pattern = re.escape(item["name"]).replace("\\ ", r"\s+")
+        if re.search(name_pattern, text, flags=re.IGNORECASE):
+            merge_partner(
+                partners,
+                item["name"],
+                unit=item["unit"],
+                organization=item["organization"],
+                location=item["location"],
+                roles=item["roles"],
+                workpackages=item["workpackages"],
+                sources=["partners table.pdf"],
+            )
+    return partners
+
+
+def enrich_partners_with_web_profiles(partners: dict) -> dict:
+    web_profiles = load_partner_web_profiles()
+    for name, profile in web_profiles.items():
+        if name in partners:
+            partners[name]["web_search"] = profile
+        else:
+            # Keep web-searched profiles only if the researcher is present in
+            # project sources; do not add external people from web search alone.
+            continue
+    return partners
+
+
 def validate_extracted_text(source_name: str, text: str) -> None:
     cleaned = clean_text(text)
     if not cleaned:
@@ -740,6 +922,8 @@ def validate_memory(memory: dict) -> None:
             "Cached project memory contains invalid extraction placeholder chunks "
             f"({preview}). Rebuild after installing docling or providing convertible source files."
         )
+    if not memory.get("partners"):
+        raise DocumentExtractionError("No partners were extracted into project memory.")
 
 
 def clean_text(text: str) -> str:
@@ -841,6 +1025,7 @@ def build_project_memory(data_dir: Path | None = None) -> dict:
     last_news_path = data_dir / "last_news.txt"
     last_news = last_news_path.read_text(encoding="utf-8") if last_news_path.exists() else ""
     validate_extracted_text(last_news_path.name, last_news)
+    partners = extract_partners_from_last_news(last_news)
     last_news_chunks = chunk_plain_text_paragraphs(
         clean_text(last_news),
         last_news_path.name,
@@ -880,6 +1065,19 @@ def build_project_memory(data_dir: Path | None = None) -> dict:
         chunks.extend(pdf_chunks)
         sources.append(pdf_source)
 
+    for name, partner in extract_partners_from_partner_table(chunks).items():
+        merge_partner(
+            partners,
+            name,
+            unit=partner.get("unit"),
+            organization=partner.get("organization"),
+            location=partner.get("location"),
+            roles=partner.get("roles", []),
+            workpackages=partner.get("workpackages", []),
+            sources=partner.get("sources", []),
+        )
+    partners = enrich_partners_with_web_profiles(partners)
+
     memory = {
         "project": {
             "name": "DAIMON Horizon proposal",
@@ -918,22 +1116,7 @@ def build_project_memory(data_dir: Path | None = None) -> dict:
             "The consortium is closed.",
             "The separate guidelines WP has been removed; guidelines should become deliverables inside each WP.",
         ],
-        "partners": {
-            "Mireia Vendrell": {
-                "location": "Barcelona, Spain",
-                "known_from": "last_news.txt",
-                "current_project_role": "Data collection in Spain",
-                "web_profile_status": "unresolved",
-                "notes": "One-time web search produced ambiguous results; verify affiliation and expertise before using beyond the Spain data-collection role.",
-            },
-            "Desirée Schmuck": {
-                "location": "Vienna, Austria",
-                "known_from": "last_news.txt",
-                "current_project_role": "Changes caused by AI in technology users",
-                "web_profile_status": "unresolved",
-                "notes": "One-time web search did not produce a reliable exact-match profile; verify spelling, affiliation, and expertise.",
-            },
-        },
+        "partners": partners,
         "sources": sources,
         "chunks": chunks,
     }

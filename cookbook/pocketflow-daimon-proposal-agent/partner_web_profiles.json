@@ -1,0 +1,90 @@
+{
+  "Fabio Grigenti": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search did not return a reliable official profile in the current search session. Use the partner table facts: FISPPA, Universita degli Studi di Padova, consortium coordinator, WP1/WP7/WP8.",
+    "source_urls": [],
+    "search_queries": [
+      "Fabio Grigenti FISPPA Universita degli Studi di Padova",
+      "\"Fabio Grigenti\""
+    ]
+  },
+  "Desirée Schmuck": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search did not return a reliable exact-match official profile in the current search session. Use the partner table and last_news facts: Department of Communication, University of Vienna, AI-related changes in technology users.",
+    "source_urls": [],
+    "search_queries": [
+      "Desiree Schmuck University Vienna communication",
+      "\"Desirée Schmuck\" \"University of Vienna\""
+    ]
+  },
+  "Bernardo Magnini": {
+    "web_search_status": "partially_verified",
+    "web_summary": "Search results and publication records consistently associate Bernardo Magnini with NLP and Italian language/NLU research. Partner table gives the project affiliation as FBK, Natural Language Processing unit, Trento, with WP3 responsibility.",
+    "source_urls": [
+      "https://arxiv.org/abs/2011.00564",
+      "https://arxiv.org/abs/2502.02289"
+    ],
+    "search_queries": [
+      "\"Bernardo Magnini\" \"Fondazione Bruno Kessler\"",
+      "\"Bernardo Magnini\" \"NLP\" \"FBK\""
+    ]
+  },
+  "Antonella Marchetti": {
+    "web_search_status": "partially_verified",
+    "web_summary": "Search results identify Antonella Marchetti in psychology/cognitive-science work, including recent AI/cognition-related scholarship. Partner table gives the project affiliation as Universita Cattolica, Psychology Department, Milan, WP4.",
+    "source_urls": [
+      "https://arxiv.org/abs/2407.16444"
+    ],
+    "search_queries": [
+      "\"Antonella Marchetti\" \"Università Cattolica\" psychology",
+      "\"Antonella Marchetti\" AI cognition"
+    ]
+  },
+  "Davide Massaro": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search was noisy because the name collides with unrelated public figures. Use only the partner table fact that Davide Massaro is part of the Universita Cattolica Psychology Department team for WP4 unless manually verified.",
+    "source_urls": [],
+    "search_queries": [
+      "\"Davide Massaro\" \"Università Cattolica\" psychology",
+      "\"Antonella Marchetti\" \"Davide Massaro\""
+    ]
+  },
+  "Ioana R. Podina": {
+    "web_search_status": "partially_verified",
+    "web_summary": "Search results associate Ioana R. Podina with clinical psychology and computational/mental-health research. Partner table gives Mind Care 4ALL, Bucharest, WP5.",
+    "source_urls": [
+      "https://arxiv.org/abs/2108.00279"
+    ],
+    "search_queries": [
+      "\"Ioana R. Podina\" \"Mind Care 4ALL\"",
+      "\"Ioana Podina\" clinical psychology"
+    ]
+  },
+  "Mireia Vendrell Morancho": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search did not return a reliable exact-match official profile in the current search session. Use partner table and last_news facts: Artificial Intelligence Research Institute, Spanish National Research Council, Barcelona, WP4 and Spain data collection.",
+    "source_urls": [],
+    "search_queries": [
+      "\"Mireia Vendrell Morancho\"",
+      "\"Mireia Vendrell\" \"Spanish National Research Council\""
+    ]
+  },
+  "Marco Tamborini": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search did not return a reliable official profile in the current search session. Use partner table facts: philosophy of technology, Pegaso University, WP2.",
+    "source_urls": [],
+    "search_queries": [
+      "\"Marco Tamborini\" philosophy of technology",
+      "\"Marco Tamborini\" Pegaso University"
+    ]
+  },
+  "Christoph Aurnhammer": {
+    "web_search_status": "unverified",
+    "web_summary": "Web search did not return a reliable official profile in the current search session. Use partner table facts: Mentalab, Munich, industrial partner collaborating in WP3 and WP5.",
+    "source_urls": [],
+    "search_queries": [
+      "\"Christoph Aurnhammer\" Mentalab",
+      "\"Christoph Aurnhammer\" Munich"
+    ]
+  }
+}
