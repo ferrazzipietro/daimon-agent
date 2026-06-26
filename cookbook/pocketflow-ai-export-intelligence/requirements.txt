@@ -1,7 +1,0 @@
-ddgs
-openai
-anthropic
-google-genai
-requests
-beautifulsoup4
-pyyaml

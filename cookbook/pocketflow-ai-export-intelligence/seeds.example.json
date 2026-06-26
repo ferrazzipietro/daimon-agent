@@ -1,6 +1,0 @@
-{
-  "countries": ["Germany", "Poland", "Romania", "Czech Republic"],
-  "sectors": ["spin casting", "manufacturers", "importers"],
-  "keywords": ["sales agent", "distributor", "importer", "wholesaler"],
-  "exclusions": ["job", "career", "recruiting"]
-}
